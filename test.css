@@ -93,9 +93,10 @@ margin-bottom: 3rem;
 
 }
 #counter{
+    background-attachment: fixed;
+    background-size: cover;
     background-image: url(images/4.jpg);
     background-attachment: fixed;
-    height: 300px;
     color: #fff;  
     position: relative;
     
@@ -109,6 +110,9 @@ margin-bottom: 3rem;
     width: 100%;
     opacity: 0.7;
     background-color:  #0078ff;
+}
+.count{
+    margin: 40px 0px;
 }
 .number{
     font-size: 2rem;
@@ -233,30 +237,31 @@ text-transform: uppercase;
     float: right;
     border-radius: 50%;
     font-size: 1.5rem;
-color:#0078ff;
-box-shadow: 0 0 0 5px #0078ff;
-padding: 5px;
-margin: 5px;
-margin-top: -15px;
+    color:#0078ff;
+    box-shadow: 0 0 0 5px #0078ff;
+    padding: 5px;
+    margin: 5px;
+    margin-top: -15px;
 
 }
 #message{
+    background-attachment: fixed;
+    background-size: cover;
     background-image: url(images/11.jpg);
-    height: 500px;
     background-attachment: fixed;
     position: relative;
-    
+    padding: 100px 0px;
 }
 .message-bg{
     
     position: absolute;
-top: 0;
-left: 0px;
-padding: 0;
-height: 100%;
-width: 100%;
-opacity: 0.7;
-background-color:#0078ff;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color:#0078ff;
 }
 .btn{
     border-radius: 5rem;
@@ -264,9 +269,9 @@ background-color:#0078ff;
 .message-box{
     position: relative;
     background-color:#fff;
-    margin-bottom: 3rem;
     z-index: 2;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+   /*  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
+    box-shadow: 0px 0px 10px #ccc;
     padding: 3rem;
       
 }
