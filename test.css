@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: left;
+background-color: #f5f5f5;
+}
+.navbar{
+    padding: 1rem 5rem;
+    background-color:transparent;
+}
+.navbar a{
+    color: #fff;
+}
+
+.head{
+    background-image: url(images/73109044_140740417259681_3720407809754398720_n.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+.home{
+    width: 100%;
+    height: 700px;
+    
+}
+.home h1{
+        font-size: 4.5rem;
+        color:#fff;
+        font-weight: 600;
+
+}
+.home p{
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: #fff;
+}
+.percentage{
+    float:right;
+}
+.box-shadow-full{
+    padding: 5rem;
+    margin-top: 3rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0
+    rgba(0, 0, 0, 0.06), 0 2px 5px 0
+        rgba(0, 0, 0, 0.2);
+    }
+.service {
+    text-align: center;
+}
+.line-mf{
+    width: 40px;
+height: 5px;
+background-color: #0078ff;
+    margin: 0 auto;
+}
+.service-box {
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    background-color:
+#fff;
+padding: 2.5rem 1.3rem;
+border-radius: 1rem;
+margin-bottom: 3rem;
+
+
+}
+#counter{
+    background-image: url(images/4.jpg);
+    background-attachment: fixed;
+    height: 300px;
+    color: #fff;  
+    position: relative;
+    
+}
+.back-gd{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color:  #0078ff;
+}
+.number{
+    font-size: 2rem;
+}
+    
+.port-box{
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    background-color:#fff;
+padding-bottom: 2rem;
+margin-bottom: 3rem;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+.port-img{
+    transition:  1s all ease-in;
+}
+.port-img:hover{
+    transform: scale(1.1);
+}
+.port-text{
+    margin-bottom: 4rem;
+    padding-top: 4rem;
+}
+.avatar{
+    width: 32px;
+height: 32px;
+margin-right: 4px;
+}
+.time{
+    float: right;
+}
+.blog-box{
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    background-color:#fff;
+}
+.category{
+    display: inline-block;
+color:#fff;
+padding: 0 15px 5px;
+overflow: hidden;
+background-color:#0078ff;
+border-radius: 4px;
+
+text-transform: uppercase;
+font-size: .7rem;
+letter-spacing: .1px;
+margin-bottom: 0;
+}
+.category-box{
+    position: absolute;
+text-align: center;
+bottom: 20rem;
+left: 15px;
+right: 15px;
+
+line-height: 25px;
+overflow: hidden;
+}
+.carousel{
+    background-image: url(images/11.jpg);
+    height: 400px;
+    
+}
+.service-icon{
+height: 100px;
+width: 100px;
+font-size: 2rem;
+border-radius: 50%;
+line-height: 1.55;
+margin: 0 auto;
+text-align: center;
+box-shadow: 0 0 0 10px #0078ff;
+display: block;
+padding: 10px;
+}
+
+ .service-icon{
+    font-size: 4rem;
+    color: #1e1e1e;
+}
+ .service-content h2{
+     text-align: center ;
+    margin-bottom: .5rem;
+font-family: inherit;
+font-weight: 500;
+line-height: 0.8;
+color: inherit;
+margin-top: 0.5rem;
+color:#1e1e1e ;
+padding-top: 2rem;
+
+}
+.service-box{
+    font-size: 1rem;
+text-transform: uppercase;
+text-align: center;
+padding: 2rem 0;
+margin-top: 2rem;
+}
+.counter-icon{
+    height: 100px;
+width: 100px;
+font-size: 2rem;
+border-radius: 50%;
+line-height: 1.55;
+margin: 0 auto;
+text-align: center;
+box-shadow: 0 0 0 10px  #cde1f8;
+display: block;
+padding: 2rem;
+}
+.port1{
+    font-size: 3rem;
+font-weight: bold;
+text-transform: uppercase;
+}
+.port-icon{
+    float: right;
+    border-radius: 50%;
+    font-size: 1.5rem;
+color:#0078ff;
+box-shadow: 0 0 0 5px #0078ff;
+padding: 5px;
+margin: 5px;
+margin-top: -15px;
+
+}
+#message{
+    background-image: url(images/11.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+.message-bg{
+    
+    position: absolute;
+top: 0;
+left: 0px;
+padding: 0;
+height: 100%;
+width: 100%;
+opacity: 0.7;
+background-color:#0078ff;
+}
+.btn{
+    border-radius: 5rem;
+}
+.message-box{
+    position: relative;
+    background-color:#fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 3rem;
+      
+}
