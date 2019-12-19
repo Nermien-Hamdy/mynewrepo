@@ -19,7 +19,16 @@ background-color: #f5f5f5;
 .navbar a{
     color: #fff;
 }
+.bg-black
+{
+    background-color: black;
+    padding: 0px 130px;
+}
+nav
+{
+    transition: padding 1s, background-color 1s;
 
+}
 .head{
     background-image: url(images/73109044_140740417259681_3720407809754398720_n.jpg);
     background-size: cover;
